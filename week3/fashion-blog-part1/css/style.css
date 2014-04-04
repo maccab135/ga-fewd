@@ -1,0 +1,124 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+	margin: 0;
+	padding: 3em;
+	font-family: 'Lato' sans serif;
+}
+
+p {
+	font-weight: 300;
+}
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h1 a{
+	text-decoration: none;
+	font-size: 3em;
+	color: #D00;
+	font-weight: lighter;
+}
+
+h2{
+	font-size: 1.5em;
+	font-weight: lighter;
+	color: #000;
+}
+
+h2 a{
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: lighter;
+	color: inherit;
+}
+
+
+nav a{
+	font-size: 1.25em; 
+	font-weight: lighter;
+	color: #DDD;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: lighter;
+	color: #CCC;
+}
+
+article h4 {
+	text-align: right;
+}
+
+h4 a{
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+	color: #D00;
+}
+
+h5 {
+	color: #DDD;
+}
+
+nav b{
+	font-size: 1.25em; 
+	font-weight: lighter;
+	color: #D00;
+}
+
+footer {
+	font-size: 1.5em;
+	font-weight: lighter;
+	color: #D00;
+}
+
+
+article p:first-letter {
+	float: left;
+	font-size: 60px;
+	line-height: 1;
+	color: #DDD;
+	/*margin: -.1em .1em 0 -.1em;*/
+}
+
+
+

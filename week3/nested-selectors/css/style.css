@@ -1,0 +1,39 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+h2 {
+	color: red;
+}
+
+header h2 {
+	color: green;
+}
+
+aside p {
+	font-weight: bold;
+}
+
+header h2 em {
+	font-weight: bold;
+	color: pink;
+	font-size: 20px;
+}
+
+/*li:first-of-type {
+	color: pink;
+}*/
+
+/*ul li:first-child {
+	color: orange;
+}*/
+
+ul li:nth-of-type(2) {
+	color: teal;
+}
+
+ul li:last-child {
+     background: orange;
+}
